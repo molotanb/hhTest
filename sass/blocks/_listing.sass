@@ -1,0 +1,146 @@
+.listing
+    margin-bottom: 30px
+    transition: .25s
+    &:last-child
+        margin-bottom: 0
+    &:hover
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.06))
+    &__wrap
+        display: flex
+    &__img
+        width: 30.67%
+        background: #060809
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        &_overlay
+            display: inline-block
+            position: relative
+            line-height: 0
+        &_overlay:after
+            content: ""
+            display: block
+            width: 100%
+            height: 100%
+            position: absolute
+            top: 0
+            left: 0
+            background: transparent
+            background-image: linear-gradient(180deg, rgba(6, 8, 9, 0) 75%, #000000 99.92%, #060809 99.93%, rgba(204, 204, 204, 0.686417) 99.94%, rgba(177, 177, 177, 0.729419) 99.95%, #060809 99.96%, rgba(0, 0, 0, 0.533801) 99.97%, #060809 99.98%)
+            opacity: 1
+    &__content
+        width: 69.34%
+        border-right: 1px solid #E0E0E0
+        background: #fff
+    &__status
+        display: flex
+        flex-direction: column
+        justify-content: center
+        padding: 15px
+        padding-top: 5px
+        & span
+            border: 1px solid #FFFFFF
+            box-sizing: border-box
+            border-radius: 3px
+            margin-top: 13px
+            font-weight: bold
+            font-size: 14px
+            line-height: 23px
+            color: #fff
+            text-align: center
+    &__section_title
+        background: #FAFAFA
+        border: 1px solid #E0E0E0
+        padding: 15px
+        border-right: none
+        &_img
+            display: none
+    &__type
+        display: inline-block
+        background: #4CAF50
+        border-radius: 3px
+        font-size: 14px
+        line-height: 25px
+        text-align: center
+        color: #FFFFFF
+        padding: 0 15px
+        margin-bottom: 10px
+    &__title
+        width: 100%
+        display: inline-block
+        font-weight: normal
+        font-size: 18px
+        line-height: 22px
+        color: #242526
+    &__section_options
+        display: flex
+        flex-wrap: wrap
+        padding: 15px
+        padding-bottom: 0
+    &__option
+        width: calc(33.33% - 10px)
+        display: flex
+        flex-direction: column
+        margin-right: 15px
+        margin-bottom: 15px
+        &:nth-child(3n+1)
+            margin-right: 0
+        &_name
+            font-weight: normal
+            font-size: 14px
+            line-height: 18px
+            color: #242526  
+        &_value
+            font-weight: normal
+            font-size: 18px
+            font-weight: 700
+            line-height: 25px
+            color: #242526
+    &__section_btns
+        padding: 15px
+        padding-top: 0
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: wrap
+        & a
+            width: calc(33.33% - 10px)
+            padding: 6px 0
+            margin-right: 15px
+            text-align: center
+            font-style: normal
+            font-weight: bold
+            font-size: 16px
+            line-height: 19px
+            &:nth-child(3n+3)
+                margin-right: 0
+    &__btn
+        &_casino
+            color: #FFFFFF
+            background: #1E88E5
+            border: 1px solid #1E88E5
+            border-radius: 3px
+        &_bonus
+            color: #242526
+            background: #FFFFFF
+            border: 1px solid #1E88E5
+            border-radius: 3px
+        &_receive
+            color: #FFFFFF
+            background: #F83030
+            border: 1px solid #F83030
+            border-radius: 3px
+    &__footer
+        padding: 11px 15px
+        background: #FAFAFA
+        border: 1px solid #E0E0E0
+        padding-bottom: 20px
+        &_btn
+            padding-bottom: 4px
+            border-bottom: 1px dashed #2F8F41
+        &_cond
+            margin-top: 15px
+            font-weight: normal
+            font-size: 14px
+            line-height: 21px
+            color: #000

@@ -1,0 +1,137 @@
+/** Адаптив **/
+@media (max-width:1024px)
+    .header .container
+        flex-wrap: wrap
+        justify-content: center
+    .header__logo
+        margin: 35px 0
+        font-size: 32px
+    .header__banner
+        
+    .headerMenu__link:last-child
+        display: none
+    .headerMenu__pm
+        display: none
+    .headerMenu__yt
+        margin-right: 8px
+    .content 
+        & .container
+            flex-wrap: wrap
+        &__listings
+            width: 100%
+        &__sidebar_right
+            width: 100%
+    .tagFilter
+        padding: 0
+        &__wrap
+            justify-content: start
+        &__tag
+            margin: 0
+            padding: 13px 20px
+            border-radius: 0
+    .bookmaker__img
+        width: 100px
+    .bookmaker__wrap
+        width: calc(100% - 100px)
+    .content__sidebar_right
+        margin-top: 30px
+
+
+@media (max-width:768px)
+    .headerTop
+        display: none
+    .header
+        display: none
+    .headerMenu
+        display: none
+    .headerMob
+        background: #F5F5F5
+        border: 1px solid #E5E5E5
+        padding-top: 15px
+        padding-bottom: 15px
+        & .container
+            width: 100%
+            margin: 0
+        &__wrap
+            display: flex
+            align-items: center
+            justify-content: space-between
+        &__logo
+            font-weight: bold
+            font-size: 16px
+            line-height: 19px
+            text-transform: uppercase
+            color: #242526
+        &__btns
+            display: flex
+            align-items: center
+        &__menu
+            margin-right: 25px
+    .subheader__title
+        font-size: 32px
+@media (max-width:480px)
+    .subheader
+        padding-bottom: 0
+        &__desc
+            font-size: 16px
+            line-height: 26px
+            height: 130px
+            overflow: hidden
+            position: relative
+            &_overlay
+                &:after
+                    content: "..."
+                    font-size: 48px
+                    line-height: 13px
+                    height: 37px
+                    display: block
+                    text-align: center
+                    width: 100%
+                    //height: 50px
+                    position: relative
+                    top: -50px
+                    padding: 7px 0
+                    left: 0
+                    margin-bottom: -50px
+                    background: transparent
+                    background: linear-gradient(180deg, rgba(5, 7, 8, 0.319421) 0%, rgba(6, 8, 9, 0.24) 0.01%, #060809 70.31%, #000000 99.92%, #060809 99.93%, rgba(204, 204, 204, 0.686417) 99.94%, rgba(177, 177, 177, 0.729419) 99.95%, #060809 99.96%, rgba(0, 0, 0, 0.533801) 99.97%)
+                    opacity: 1
+            &.full
+                height: 100%
+    .listing__img
+        display: none
+    .listing__content
+        width: 100%
+    .listing__type
+        margin-right: 120px
+        background: #1E88E5
+        margin-bottom: 15px
+    .listing__section_title_img
+        display: inline-block
+        width: 30%
+        margin-right: 15px
+    .listing__title
+        width: calc(70% - 19px)
+        font-weight: bold
+        font-size: 18px
+        line-height: 22px
+        text-align: center
+        color: #242526
+    .listing__btn_casino,
+    .listing__btn_bonus
+        display: none
+    .listing__btn_receive
+        width: 100% !important
+    .listing__section_options
+        justify-content: space-between
+        border-left: 1px solid #E0E0E0
+    .listing__section_btns
+        border-left: 1px solid #E0E0E0
+    .listing__option
+        width: 47%
+        margin-right: 0
+        &:nth-child(n+5)
+            display: none
+@media (min-width:768px)
+    .headerMob
+        display: none

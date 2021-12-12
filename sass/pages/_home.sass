@@ -1,0 +1,65 @@
+.subheader
+    padding: 30px 0
+    background-color: #242526
+    color: #fff
+    background-image: url(../img/subheader-bcg.jpg)
+    &__title,
+    &__desc
+        text-align: center
+    &__title
+        font-weight: bold
+        font-size: 38px
+        line-height: 46px
+        margin-bottom: 20px
+    &__desc
+        font-weight: normal
+        font-size: 16px
+        line-height: 26px
+
+.tagFilter
+    background: #F5F5F5
+    padding: 15px 0
+    &__wrap
+        display: flex
+        align-items: center
+        justify-content: center
+        overflow-x: auto
+        &::-webkit-scrollbar
+            display: none
+    &__tag
+        flex: 0 0 auto
+        display: flex
+        align-items: center
+        margin: 0 7.5px
+        padding: 8px 20px
+        background: #E3E4E5
+        border: 1px solid #B2B7BA
+        border-radius: 5px
+        font-weight: bold
+        font-size: 16px
+        line-height: 19px
+        text-align: center
+        color: #3F4143
+        transition: .3s
+        & img
+            height: 18px
+            margin-right: 8px
+        &:hover
+            opacity: .75
+        &.none
+            opacity: 0.5
+        &.active
+            background: rgba(30, 136, 229, 0.1)
+            border: 1px solid #1E88E5
+            
+.content 
+    margin: 33px 0
+    & .container
+        display: flex
+        justify-content: space-between
+    &__listings
+        width: 750px
+    &__sidebar_right
+        width: 360px
+
+
