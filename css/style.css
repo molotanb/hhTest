@@ -1041,10 +1041,10 @@ a:hover {
     text-align: center;
     width: 100%;
     position: relative;
-    top: -45px;
+    top: -50px;
     padding: 7px 0;
     left: 0;
-    margin-bottom: -50px;
+    margin-bottom: -45px;
     background: transparent;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 7, 8, 0.319421)), color-stop(0.01%, rgba(6, 8, 9, 0.24)), color-stop(70.31%, #060809), color-stop(99.92%, #000000), color-stop(99.93%, #060809), color-stop(99.94%, rgba(204, 204, 204, 0.686417)), color-stop(99.95%, rgba(177, 177, 177, 0.729419)), color-stop(99.96%, #060809), color-stop(99.97%, rgba(0, 0, 0, 0.533801)));
     background: linear-gradient(180deg, rgba(5, 7, 8, 0.319421) 0%, rgba(6, 8, 9, 0.24) 0.01%, #060809 70.31%, #000000 99.92%, #060809 99.93%, rgba(204, 204, 204, 0.686417) 99.94%, rgba(177, 177, 177, 0.729419) 99.95%, #060809 99.96%, rgba(0, 0, 0, 0.533801) 99.97%);
